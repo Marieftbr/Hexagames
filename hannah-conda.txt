@@ -1,0 +1,14 @@
+===================================================
+*                                                 *
+*                    Hannah-conda                 *
+*                                                 *
+===================================================
+
+// Hannah
+Future développeuse web travaillant actuellement sur le projet Hexagames
+
+// Hexagames
+Une ludothèque en ligne permettant de regrouper des joueurs de jeux de société selon différents jeux et ainsi organiser des sessions de jeu.
+
+// Tâches
+Travaille actuellement sur la page d'accueil 

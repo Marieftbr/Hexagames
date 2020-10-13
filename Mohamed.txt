@@ -1,0 +1,4 @@
+Les tâches effectuer :
+ 
+	- Création d'une page de connexion au site en HTML, CSS et JS
+	- Création d'une page d'inscription au site HTML, CSS et JS
