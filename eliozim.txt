@@ -1,0 +1,12 @@
+Hexagames est une ludothèque en ligne qui permet de répertorier
+tous les jeux de société que l'on possède, ceux que l'on souhaite acquérir 
+et éventuellement de pouvoir leur donner une note.
+
+Le principe le plus intéressant d'Hexagames est de pouvoir 
+réunir des joueurs souhaitant jouer au même jeu afin qu'ils puissent faire des parties en se rencontrant dans leur ville.
+Un joueur possédant un jeu mais cherchant d'autres participants pour jouer, poste une annonce à laquelle les joueurs, 
+qui a l'inverse, ne possède pas le jeu mais souhaitent y jouer, peuvent répondre.
+
+
+Elliot :
+Je m'occupe de créer la page de profil des joueurs.
