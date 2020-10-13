@@ -1,0 +1,5 @@
+Hexagames est une ludothèque en ligne mais pas seulement!
+Vous pourrez rencontrer des joueurs francophone avec lesquels jouer ou prêter vos jeux.
+
+Mon équipe est composé de Hannah, Mohamed, Elliot et moi même.
+Hexagames est un projet que nous construisons en cours dans le but d'obtenir notre diplôme afin de pouvoir exercer le métier de développeur web (front-end ou back-end)
