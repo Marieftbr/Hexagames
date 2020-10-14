@@ -19,6 +19,10 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6edd5', endColorstr='#bbe6eb',GradientType=1 ); /* IE6-9 */
 }
 
+.container {
+  background-color: white;
+}
+
 .game-main-image {
   width: 300px;
 }
@@ -28,7 +32,7 @@ body {
   flex-direction: row;
 } */
 .note-dice {
-  margin: 10px;
+  margin: 15px;
 }
 
 .avis {
@@ -36,7 +40,7 @@ body {
 }
 
 .game-user {
-  background-color: rgba(255, 255, 255, 0.43);  
+  background-color: rgba(255, 255, 255, 0.43);
 }
 
 .profiles {
@@ -49,7 +53,7 @@ body {
 .profiles a {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   min-width: 25%;
 }
 
@@ -61,10 +65,10 @@ body {
 
 .carousel-icon {
   position: absolute;
-  top:50%;
+  top: 50%;
   padding: 10px;
-  z-index: 1;  
-  transform: translateY(-50%);  
+  z-index: 1;
+  transform: translateY(-50%);
   cursor: pointer;
 }
 
@@ -81,14 +85,28 @@ section img {
 }
 
 i {
-  color: #b7a8d9;
+  color: #9025cd;
 }
 
 .white {
-  color: white;
+  color: #b7a8d9;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
+}
+
+.fa-dice-d20 {
+  font-size: 25px;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  padding: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #87f0ce, #fff77d, #9025cd);
 }
