@@ -6,3 +6,10 @@ function montreConcept() {
         conceptElt.style.display = "none";
     };
 };
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    const element = document.querySelector(".hex2");
+    element.addEventListener("click", function(event) {
+        montreConcept();
+    });
+});
