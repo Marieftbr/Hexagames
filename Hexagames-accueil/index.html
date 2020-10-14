@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap" rel="stylesheet">  
+    <title>Hexagames</title>
+</head>
+<body>
+    <header>
+        <nav class="row col-md-12 w-100 mx-0 justify-content-between">
+            <h1><a href="#" alt="Lien vers l'accueil du site">HEXAGAMES</a></h1>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <p class="profil-p">Profil</p>
+                        <a class="dropdown-toggle profil" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user nav-icon"></i>
+                        </a>
+                      
+                        <div class="dropdown-menu">
+                            <form class="px-4 py-3">
+                              <div class="form-group">
+                                <label for="exampleDropdownFormEmail1">Adresse email</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleDropdownFormPassword1">Mot de passe</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                              </div>
+                              <div class="form-group">
+                                <div class="form-check">
+                                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                  <label class="form-check-label" for="dropdownCheck">
+                                    Se souvenir de moi
+                                  </label>
+                                </div>
+                              </div>
+                              <button type="submit" class="btn btn-light">Se connecter</button>
+                            </form>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Nouveau ? Deviens un Hexapote !</a>
+                            <a class="dropdown-item" href="#">Mot de passe oublié ?</a>
+                          </div>
+                </li>
+                <li><a href="#" alt="Lien vers sa boîte de réception"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#" alt="Lien vers la ludothèque"><i class="fas fa-dice-d20"></i></a></li>
+                <li><a href="#" alt="Créer un événement avec des Hexapotes"><i class="fas fa-calendar-plus"></i></a></li>
+                <li><a href="#" alt="Nous contacter"><i class="fas fa-paper-plane"></i></li>
+                    <li><a href="#" alt="Se déconnecter"><i class="fas fa-power-off"></i></a></li>
+            </ul>
+        </nav>
+        <div class="button devenirPote mx-0 mt-4">
+            <a href="#" alt="Lien pour s'inscrire" class="devenir boutonPote">Deviens un Hexapote !</a>
+        </div>
+    </header>
+    <main>
+        <div class="hexa">
+            <img src="img/Logo_Hexa_1.png" alt="Logo d'Hexagames" width="">
+        </div>
+        <div class="concept px-4 py-4 mb-4">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam autem sunt amet odio, cupiditate explicabo esse dolorem dicta in, minima ullam officia quia? Commodi sit beatae incidunt a ipsam repudiandae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere harum! Fugit optio nostrum quaerat deleniti repellat velit dolores omnis natus, minima ullam nihil veritatis suscipit eaque odio vitae explicabo.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quidem ut veniam ratione cum repellendus cupiditate vitae maxime numquam? Debitis ad qui cum illo est repellendus deleniti minima doloribus corrupti.
+            </p>
+        </div>
+        <div class="hexagones d-flex row justify-content-around">
+            <img src="img/hexagon_purple.png" alt="Image d'un hexagone" class="hex1" />
+            <img src="img/hex_gre.png" alt="Image d'un hexagone" class="hex2" />
+            <img src="img/hex_purp.png" alt="Image d'un hexagone" class="hex3" />
+        </div>
+        <div class="txt-hexagones d-flex row justify-content-around">
+            <p>Profil</p>
+            <p class="pd-concept">Concept</p>
+            <p>Ludothèque</p>
+        </div>
+    </main>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="JS/jquery-3.5.1.js"></script>
+        <script src="JS/popper.min.js"></script>
+        <script src="JS/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/7f37cf6bc8.js" crossorigin="anonymous"></script>
+        <script src="JS/script.js"></script>
+</body>
+</html>
