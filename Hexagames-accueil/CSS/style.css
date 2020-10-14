@@ -6,7 +6,8 @@ body {
     margin: 0;
     height: 100%;
     background: rgb(235,255,223);
-    background: linear-gradient(200deg, #ebffdf, #efdfff); 
+    /* background: linear-gradient(200deg, #ebffdf, #efdfff);  */
+    background: linear-gradient(200deg, #B8B3E9, #D999B9); 
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
