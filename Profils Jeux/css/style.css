@@ -1,0 +1,94 @@
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a6edd5+0,bbe6eb+100 */
+  background: #a6edd5; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #a6edd5 0%,
+    #bbe6eb 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #a6edd5 0%,
+    #bbe6eb 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a6edd5 0%,
+    #bbe6eb 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6edd5', endColorstr='#bbe6eb',GradientType=1 ); /* IE6-9 */
+}
+
+.game-main-image {
+  width: 300px;
+}
+
+/* .game-size {
+  display: flex;
+  flex-direction: row;
+} */
+.note-dice {
+  margin: 10px;
+}
+
+.avis {
+  background-color: rgba(255, 255, 255, 0.43);
+}
+
+.game-user {
+  background-color: rgba(255, 255, 255, 0.43);  
+}
+
+.profiles {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.profiles a {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  min-width: 25%;
+}
+
+.profile {
+  position: relative;
+  left: 0%;
+  transition: left 300ms;
+}
+
+.carousel-icon {
+  position: absolute;
+  top:50%;
+  padding: 10px;
+  z-index: 1;  
+  transform: translateY(-50%);  
+  cursor: pointer;
+}
+
+.carousel-icon:hover {
+  background: #000;
+}
+
+.carousel-icon:last-of-type {
+  right: 0;
+}
+
+section img {
+  margin: 10px;
+}
+
+i {
+  color: #b7a8d9;
+}
+
+.white {
+  color: white;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
