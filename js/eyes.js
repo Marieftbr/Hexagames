@@ -10,10 +10,10 @@ function cacherMontrerBtn() {
     function changementImg() {
         let img = document.querySelector(".hideEyes");
         if(img.src.includes("hide-eyes") ) {
-            img.src = "./photos/eyes.svg"}
+            img.src = "./images/eyes.svg"}
         else { 
 
-            img.src = "./photos/hide-eyes.svg"
+            img.src = "./images/hide-eyes.svg"
     }
     
     }
